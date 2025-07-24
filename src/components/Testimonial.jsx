@@ -11,7 +11,7 @@ export const Testimonial = () => {
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img src="https://placehold.co/60x60" alt="Elderly gentleman smiling with gratitude holding medical prescription" className="w-12 h-12 rounded-full object-cover mr-4" />
+              <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/256/avatar-default-icon.png" alt="User Profile" className="w-12 h-12 rounded-full object-cover mr-4" />
               <div>
                 <h4 className="font-semibold text-gray-900">Gopal Das</h4>
                 <p className="text-sm text-gray-600">Guwahati, Assam</p>
@@ -30,7 +30,7 @@ export const Testimonial = () => {
           {/* Testimonial 2 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img src="https://placehold.co/60x60" alt="Young mother holding child with relieved expression near medical center" className="w-12 h-12 rounded-full object-cover mr-4" />
+              <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/256/avatar-default-icon.png" alt="Young mother holding child with relieved expression near medical center" className="w-12 h-12 rounded-full object-cover mr-4" />
               <div>
                 <h4 className="font-semibold text-gray-900">Mimi Choudhury</h4>
                 <p className="text-sm text-gray-600">Imphal, Manipur</p>
@@ -49,7 +49,7 @@ export const Testimonial = () => {
           {/* Testimonial 3 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img src="https://placehold.co/60x60" alt="Middle-aged male doctor in white coat standing confidently in clinic setting" className="w-12 h-12 rounded-full object-cover mr-4" />
+              <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/256/avatar-default-icon.png" alt="Middle-aged male doctor in white coat standing confidently in clinic setting" className="w-12 h-12 rounded-full object-cover mr-4" />
               <div>
                 <h4 className="font-semibold text-gray-900">Dr. Samir Baruah</h4>
                 <p className="text-sm text-gray-600">Shillong, Meghalaya</p>

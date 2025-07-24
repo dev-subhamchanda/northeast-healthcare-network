@@ -8,7 +8,6 @@ export default defineConfig({
     outDir: 'dist',
   },
   server: {
-    port: 3000,
     histroryApiFallback: true,
   },
   optimizeDeps: {

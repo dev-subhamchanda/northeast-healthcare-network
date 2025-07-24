@@ -75,14 +75,14 @@ const About = () => {
                         <div>
                             <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Story</h3>
                             <p className="text-gray-600 mb-6">
-                                Founded in 2018, North East Healthcare Network began as a small initiative to help rural patients in Assam find specialist doctors in Guwahati. Today, we've grown into Northeast India's most trusted healthcare connection platform.
+                                Founded in 2025, North East Healthcare Network began as a small initiative to help rural patients in Assam find specialist doctors in Guwahati. Today, we've grown into Northeast India's most trusted healthcare connection platform.
                             </p>
                             <p className="text-gray-600 mb-6">
                                 Our team of healthcare professionals, technologists, and local coordinators work tirelessly to expand access and improve healthcare outcomes across eight states.
                             </p>
-                            <button className="bg-blue-800 hover:bg-blue-900 text-white font-medium py-2 px-6 rounded-md transition duration-300 btn-hover">
-                                Our Team
-                            </button>
+                            <p className="text-gray-600 mb-6">
+                                We believe that everyone deserves quality healthcare, regardless of their location. Our platform is designed to empower patients with information and access to the best medical professionals.
+                                </p>
                         </div>
                     </div>
                 </div>
