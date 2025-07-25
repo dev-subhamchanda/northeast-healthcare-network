@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import map from '../assets/Map.png';
+
 const Hero = () => {
     return (
         <section id="home" className="hero py-20 md:py-32 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
-                    <div className="fade-in" style={{ animationDelay: '0.1s' }}>
+                <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10">
+                    
+                    {/* Text Section */}
+                    <div className="flex-1 fade-in" style={{ animationDelay: '0.1s' }}>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                             Connecting Northeast India To Quality Healthcare
                         </h1>
@@ -27,11 +31,13 @@ const Hero = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="mt-10 lg:mt-0 fade-in" style={{ animationDelay: '0.3s' }}>
+
+                    {/* Image Section */}
+                    <div className="flex-1 flex justify-center fade-in" style={{ animationDelay: '0.3s' }}>
                         <img
-                            src="https://images.pexels.com/photos/127873/pexels-photo-127873.jpeg"
-                            alt="Group of diverse doctors smiling confidently with stethoscopes in a modern hospital setting"
-                            className="rounded-lg shadow-xl"
+                            src={map}
+                            alt="Map of Northeast India"
+                            className="w-[500px] max-w-full h-auto object-contain rounded-lg transition-opacity duration-150 bg-transparent"
                         />
                     </div>
                 </div>
