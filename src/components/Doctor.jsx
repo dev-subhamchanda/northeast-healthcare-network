@@ -11,7 +11,7 @@ contact: "anita@example.com",
 phone: "+91-9876543210",
 hospital: "Apollo Hospital, Guwahati",
 available: "24 July 2025, 10:00 AM - 1:00 PM",
-photo: "https://randomuser.me/api/portraits/women/44.jpg"
+photo: `/doctors/anita.jpg`
 },
 {
 name: "Dr. Rakesh Boro",
@@ -22,7 +22,7 @@ contact: "rakesh@example.com",
 phone: "+91-9123456780",
 hospital: "Shillong Skin Clinic",
 available: "25 July 2025, 2:00 PM - 5:00 PM",
-photo: "https://randomuser.me/api/portraits/men/45.jpg"
+photo: `/doctors/rakesh.jpg`
 },
 {
 name: "Dr. Priya Chhetri",
@@ -33,7 +33,7 @@ contact: "priya@example.com",
 phone: "+91-9812345678",
 hospital: "Imphal Children’s Hospital",
 available: "26 July 2025, 9:00 AM - 12:00 PM",
-photo: "https://randomuser.me/api/portraits/women/46.jpg"
+photo: `/doctors/priya.jpg`
 },
 {
 name: "Dr. Amit Kumar",
@@ -44,7 +44,7 @@ contact: "amit@example.com",
 phone: "+91-9988776655",
 hospital: "Tripura Bone & Joint Clinic",
 available: "24 July 2025, 4:00 PM - 7:00 PM",
-photo: "https://randomuser.me/api/portraits/men/47.jpg"
+photo: `/doctors/amit.jpg`
 },
 {
 name: "Dr. Sneha Roy",
@@ -55,7 +55,7 @@ contact: "sneha@example.com",
 phone: "+91-9078563412",
 hospital: "Silchar Women’s Health Center",
 available: "25 July 2025, 11:00 AM - 2:00 PM",
-photo: "https://randomuser.me/api/portraits/women/48.jpg"
+photo: `/doctors/sneha.jpg`
 },
 {
 name: "Dr. Bijoy Singha",
@@ -66,7 +66,7 @@ contact: "bijoy@example.com",
 phone: "+91-9362784510",
 hospital: "Mizoram Neuro Care",
 available: "26 July 2025, 10:00 AM - 1:00 PM",
-photo: "https://randomuser.me/api/portraits/men/49.jpg"
+photo: `/doctors/bijoy.jpg`
 },
 {
 name: "Dr. Namita Deka",
@@ -77,7 +77,7 @@ contact: "namita@example.com",
 phone: "+91-9503214678",
 hospital: "Tezpur ENT Clinic",
 available: "24 July 2025, 3:00 PM - 6:00 PM",
-photo: "https://randomuser.me/api/portraits/women/50.jpg"
+photo: `/doctors/namita.jpg`
 },
 {
 name: "Dr. Sanjay Thapa",
@@ -88,7 +88,7 @@ contact: "sanjay@example.com",
 phone: "+91-9782316540",
 hospital: "Kohima General Hospital",
 available: "25 July 2025, 9:00 AM - 12:00 PM",
-photo: "https://randomuser.me/api/portraits/men/51.jpg"
+photo: `/doctors/sanjay.jpg`
 },
 {
 name: "Dr. Meena Das",
@@ -99,7 +99,7 @@ contact: "meena@example.com",
 phone: "+91-9845231890",
 hospital: "Smile Dental Care, Itanagar",
 available: "26 July 2025, 2:00 PM - 5:00 PM",
-photo: "https://randomuser.me/api/portraits/women/52.jpg"
+photo: `/doctors/meena.jpg`
 },
 {
 name: "Dr. Rajiv Barman",
@@ -110,7 +110,7 @@ contact: "rajiv@example.com",
 phone: "+91-9023147856",
 hospital: "Dibrugarh Urology Center",
 available: "27 July 2025, 11:00 AM - 2:00 PM",
-photo: "https://randomuser.me/api/portraits/men/53.jpg"
+photo: `/doctors/rajiv.jpg`
 }
     ];
 
