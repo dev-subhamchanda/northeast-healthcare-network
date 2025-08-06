@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const ContactInfo = () => {
     return (
@@ -23,7 +23,7 @@ const ContactInfo = () => {
                         <div>
                             <h4 className="text-lg font-semibold mb-2">Phone</h4>
                             <p className="text-blue-200 break-all">+91 8638108721</p>
-                            <p className="text-blue-200 mt-1 break-all">Toll Free: 1800 123 4567</p>
+                            {/* <p className="text-blue-200 mt-1 break-all">Toll Free: 1800 123 4567</p> */}
                         </div>
                     </div>
                     <div className="flex items-start">
@@ -49,8 +49,8 @@ const ContactInfo = () => {
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold mb-2">Address</h4>
-                            <p className="text-blue-200">Health Plaza, Dispur</p>
-                            <p className="text-blue-200">Guwahati, Assam - 781005</p>
+                            <p className="text-blue-200"></p>
+                            <p className="text-blue-200">Bongaigaon, Assam - 783380</p>
                         </div>
                     </div>
                     <div className="flex items-start">

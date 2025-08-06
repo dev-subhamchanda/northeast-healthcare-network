@@ -31,25 +31,15 @@ const About = () => {
                             <p className="text-gray-600 mb-6">
                                 We work to overcome geographical barriers and streamline the healthcare seeking process through technology and our extensive network.
                             </p>
-                            {/* Stats Grid */}
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="bg-blue-50 p-4 rounded-lg">
-                                    <h4 className="font-semibold text-blue-800 mb-2">2500+</h4>
-                                    <p className="text-gray-600 text-sm">Verified Doctors</p>
+                           {/* Who Are We Section */}
+                            <div className="bg-white p-6 rounded-xl shadow-lg max-w-4xl mx-auto my-10">
+                                <h2 className="text-3xl font-bold text-gray-800 mb-4">Who Are We?</h2>
+                                    <p className="text-gray-600 text-lg leading-relaxed">
+                                        Northeast Healthcare Network (NEHCN) is a registered healthcare awareness initiative based in Assam, dedicated to bridging the gap between patients and medical professionals through the power of digital communication.
+                                        We aim to make healthcare more accessible and transparent by sharing verified updates and information about doctors, hospitals, and healthcare services across the region.
+                                    </p>
                                 </div>
-                                <div className="bg-red-50 p-4 rounded-lg">
-                                    <h4 className="font-semibold text-red-600 mb-2">120+</h4>
-                                    <p className="text-gray-600 text-sm">Towns & Cities</p>
-                                </div>
-                                <div className="bg-blue-50 p-4 rounded-lg">
-                                    <h4 className="font-semibold text-blue-800 mb-2">35+</h4>
-                                    <p className="text-gray-600 text-sm">Specializations</p>
-                                </div>
-                                <div className="bg-red-50 p-4 rounded-lg">
-                                    <h4 className="font-semibold text-red-600 mb-2">50k+</h4>
-                                    <p className="text-gray-600 text-sm">Patients Served</p>
-                                </div>
-                            </div>
+
                         </div>
                         {/* Mission Image */}
                         <div>
