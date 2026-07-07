@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-xl sm:text-2xl lg:xl font-bold">
+            <h1 className="text-base sm:text-xl lg:text-2xl font-bold leading-tight">
               <span className="text-blue-950">NORTHEAST</span>{' '}
               <span className="text-red-600">HEALTHCARE </span>
               <span className="text-blue-950">NETWORK</span>

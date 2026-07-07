@@ -18,7 +18,7 @@ const About = () => (
   <section id="about">
 
     {/* ── PANEL: split navy | content ──────────────────────────────────── */}
-    <div className="flex flex-col lg:flex-row" style={{ minHeight: '560px' }}>
+    <div className="flex flex-col lg:flex-row lg:min-h-[560px]">
 
       {/* LEFT — navy identity panel (same blue-950 as Doctors sidebar & Contact) */}
       <div className="bg-blue-950 lg:w-5/12 px-10 py-16 lg:px-14 lg:py-20 flex flex-col justify-center">
@@ -31,7 +31,7 @@ const About = () => (
         <div className="w-12 h-1 bg-red-600 mb-10" />
 
         {/* 3-col stat row */}
-        <div className="grid grid-cols-3 gap-x-8 gap-y-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-8">
           {stats.map(({ value, label }) => (
             <div key={label}>
               <p className="text-4xl font-extrabold text-white leading-none">{value}</p>
@@ -88,8 +88,7 @@ const About = () => (
             <img
               src="https://images.pexels.com/photos/185764/pexels-photo-185764.jpeg"
               alt="Healthcare worker assisting patient"
-              className="rounded-lg shadow-lg w-full object-cover mb-7"
-              style={{ height: '220px' }}
+              className="rounded-lg shadow-lg w-full object-cover h-[220px] mb-7"
               loading="lazy"
               decoding="async"
             />
