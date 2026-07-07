@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Fonts loaded via index.html */
+/* Fonts loaded via index.html preconnect */
 body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;

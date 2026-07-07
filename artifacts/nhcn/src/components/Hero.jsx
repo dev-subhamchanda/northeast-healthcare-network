@@ -37,7 +37,9 @@ const Hero = () => {
                         <img
                             src={map}
                             alt="Map of Northeast India"
-                            className="w-[500px] max-w-full h-auto object-contain rounded-lg transition-opacity duration-150 bg-transparent"
+                            className="w-[500px] max-w-full h-auto object-contain rounded-lg bg-transparent"
+                            fetchPriority="high"
+                            decoding="async"
                         />
                     </div>
                 </div>

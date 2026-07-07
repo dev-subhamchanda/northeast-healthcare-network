@@ -11,7 +11,7 @@ export const Testimonial = () => {
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/256/avatar-default-icon.png" alt="User Profile" className="w-12 h-12 rounded-full object-cover mr-4" />
+              <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/256/avatar-default-icon.png" alt="User Profile" className="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" decoding="async" />
               <div>
                 <h4 className="font-semibold text-gray-900">Gopal Das</h4>
                 <p className="text-sm text-gray-600">Guwahati, Assam</p>
