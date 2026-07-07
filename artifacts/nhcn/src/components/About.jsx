@@ -3,7 +3,6 @@ import { FaShieldAlt, FaMapMarkerAlt, FaHandsHelping, FaMobileAlt } from 'react-
 
 const stats = [
   { value: '200+',  label: 'Verified Doctors'  },
-  { value: '8',     label: 'States Covered'     },
   { value: '2025',  label: 'Year Founded'       },
   { value: '5,000+',label: 'Patients Helped'    },
 ];
@@ -31,8 +30,8 @@ const About = () => (
         </h2>
         <div className="w-12 h-1 bg-red-600 mb-10" />
 
-        {/* 2 × 2 stat grid */}
-        <div className="grid grid-cols-2 gap-x-10 gap-y-8">
+        {/* 3-col stat row */}
+        <div className="grid grid-cols-3 gap-x-8 gap-y-8">
           {stats.map(({ value, label }) => (
             <div key={label}>
               <p className="text-4xl font-extrabold text-white leading-none">{value}</p>
