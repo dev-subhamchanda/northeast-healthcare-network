@@ -256,6 +256,7 @@ photo: `/doctors/rajiv.jpg`
                                             className="w-full bg-blue-900 border border-blue-800 text-white rounded-md px-3 py-2 text-sm"
                                             value={selectedSpecialization}
                                             onChange={e => setSelectedSpecialization(e.target.value)}
+                                            name="specialized"
                                         >
                                             {specializations.map(spec => (
                                                 <option key={spec}>{spec}</option>
@@ -268,6 +269,7 @@ photo: `/doctors/rajiv.jpg`
                                             className="w-full bg-blue-900 border border-blue-800 text-white rounded-md px-3 py-2 text-sm"
                                             value={selectedLocation}
                                             onChange={e => setSelectedLocation(e.target.value)}
+                                            name="location"
                                         >
                                             {locations.map(loc => (
                                                 <option key={loc}>{loc}</option>
@@ -280,6 +282,7 @@ photo: `/doctors/rajiv.jpg`
                                             className="w-full bg-blue-900 border border-blue-800 text-white rounded-md px-3 py-2 text-sm"
                                             value={selectedAvailability}
                                             onChange={e => setSelectedAvailability(e.target.value)}
+                                            name="availability"
                                         >
                                             {availabilities.map(avail => (
                                                 <option key={avail}>{avail}</option>
@@ -289,7 +292,8 @@ photo: `/doctors/rajiv.jpg`
                                     <button
                                         type="submit"
                                         className="bg-red-600 hover:bg-red-700 text-white font-medium w-full py-2 px-4 rounded-md transition duration-300 mt-4 btn-hover"
-                                    >
+                                        name="filter"
+                                        >
                                         Apply Filters
                                     </button>
                                 </form>
